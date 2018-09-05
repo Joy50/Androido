@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(ide.jpg);
+	background-size: cover;
+	font-family: Verdana
+	font-size:20px;
+	line-height: 24px;
+}
+.navbar{
+	text-align: center;
+	max-width: 100%;
+	background: black;
+	opacity: 0.8;
+}
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+.navbar ul li a{
+	display: block;
+	padding: 25px;
+	color: white;
+	text-decoration: none;
+	width: 150px;
+}
+.navbar ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.navbar ul li{
+	float: left;
+	list-style: none;
+}
+.navbar ul ul{
+	display: none;
+}
+.navbar ul li:hover > ul{
+	display: block;
+}
+.navbarul li:hover{
+	background: black;
+	transition: 0.9s;
+}
+.navbarul li:hover a{
+	color: white;
+}
+.navbar ul ul{
+	background: black;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 100%;
+}
+.navbar ul ul li{
+	float: none;
+	position: relative;
+}
+.navbar ul ul li a{
+	padding: 25px;
+	color: white;
+	width: 300px;
+	text-align: left;
+}
+.navbar ul ul li a:hover{
+	background: lightblue;
+	color: black;
+	transition: 0.9s;
+}
+.ide{
+	max-width: 820px;
+	max-height: 600px;
+	background:rgba(0,0,0,0.5);
+	color: #fff;
+	top:58%;
+	left:80%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 10px 30px;
+}
+.ide a{
+	text-decoration: none;
+	font-size:30px;
+	color: #fff;
+}
+.ide a:hover{
+	color: #39dc79;
+}
+.c1{
+	overflow: hidden;
+	padding: 10px;
+	position: right;
+	color: #fff
+	background:black;
+}
+.c1:before{
+	content: '';
+	width: 640px;
+	height: 100%;
+	background: black;
+	position: right;
+	left: 20px;
+}
+.c2{
+	background: black;
+	padding: 20px;
+	margin: 20px 60px;
+	width: 640px;
+	border-radius: 8px;
+}
+.c2:before{
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	position: absolute;
+	left: -10px;
+	top: 50%;
+	transition: translatey(-50%) rotate(35deg);
+}
+.c2:after{
+	content: '';
+	width: 36px;
+	height: 36px;
+	border:4px solid #313131; 
+	background: #3498db;
+	border-radius: 50%;
+	position: absolute;
+	left: -62px;
+	top: 50%;
+	transition: translatey(-50%);
+}
+.c2 b{
+	font-size: 40px;
+	color: white;
+}
