@@ -1,7 +1,8 @@
-#Androido
+Androido
 
 
 ##Introduction:
+
 This project is mainly android learning website. Android learning is a very important part in modern computer science. The goal of this project to teach people about android development. Since this project is an E-Learning web application where the registered user will view the contents and will comment about anything related. This project contains video tutorials. Any one can post their problems. If anyone follow this website, he can learn android development properly.
 
 
@@ -35,6 +36,8 @@ This project is mainly android learning website. Android learning is a very impo
 2.	Backend: PHP
 3.	Editors: Sublime Text, Notepad++
 4.	Hosting : Xampp
+
+
 ##Advantages:
 1.	It will help you to enhance your knowledge about android
 2.	It can make a self-learning android community
